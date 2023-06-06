@@ -11,11 +11,16 @@ function App() {
       <h1 className='text-success'>Ola mundo</h1>
       <h1 className='text-danger'>Ola mundo</h1>
       <h1 className='text-warnig'>Ola mundo</h1>
-      <h1 className='text-info'>Ola mundo</h1>
+      <h1 className='text-info bg-success'>Ola mundo</h1>
       <h1 className='text-light bg-black'>Ola mundo</h1>
       <h1 className='text-dark'>Ola mundo</h1>
       <h1 className='text-body'>Ola mundo</h1>
       <h1 className='text-muted '>Ola mundo</h1>
+
+
+      <button type='button' className='btn btn-danger'>Cancelar</button>
+      <button type='button' className='btn btn-success'>Aplicar</button>
+      <a href="https://google.com" className='btn btn-success'>Submit</a>
 
     </div>
   );
