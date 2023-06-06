@@ -1,0 +1,6 @@
+/* Customizar as cores do bootstrap */
+
+:root, 
+[data-bs-theme=light]{
+    --bs-success-rgb: 243,191,191;
+}
